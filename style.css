@@ -131,3 +131,173 @@ header{
     color: white;
     text-decoration: none;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+}
+
+header{
+    background-color: #48ff00;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.cabecalho-itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_imagem{
+    width: 300px;
+}
+
+.titulo_site{
+    text-align: center;
+    font-size: 40px;
+}
+
+.sociais{
+    display: flex;
+    gap: 10px;
+}
+
+.sociais img{
+    width: 50px;
+}
+
+.banner1 {
+    color: #48ff00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escola-image {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.txtbanner {
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.titulo-sobre{
+    font-size: 45px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobre-mim{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #333;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.Meu-Bairro {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.txtbairro {
+    color: #48ff00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.estudante{
+    background-color: #48ff00;
+    padding: 40px 20px;
+}
+
+.estudante_titulo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.estudantes_todos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-imagem{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.estudante-nome{
+    margin: 10px 0;
+}
+
+.estudante-icone{
+    width: 35px;
+    margin: 5px;
+}
+
+.escola{
+    background: linear-gradient(#48ff00,#a5ee88);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+.logo_rodape{
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #48ff00;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
